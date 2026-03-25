@@ -4,6 +4,8 @@ import discord
 from discord.ext import commands
 from discord import app_commands
 
+print("BOT STARTING...")
+
 TOKEN = os.getenv("TOKEN")
 
 SKZ_MEMBERS = [
