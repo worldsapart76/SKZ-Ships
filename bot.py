@@ -5,6 +5,8 @@ from discord.ext import commands
 from discord import app_commands
 
 print("BOT STARTING...")
+print("ENV KEYS:", list(os.environ.keys()))
+print("TOKEN VALUE:", os.getenv("TOKEN"))
 
 TOKEN = os.getenv("TOKEN")
 
